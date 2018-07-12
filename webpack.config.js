@@ -98,7 +98,8 @@ module.exports = {
             commonjs2: 'prop-types',
             commonjs: 'prop-types',
             amd: 'prop-types'
-        }
+        },
+        "echarts": 'echarts'
     },
 
     module: {
