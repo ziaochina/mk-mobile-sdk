@@ -1,62 +1,61 @@
 {
-    "name": "mk-mobile-sdk",
-    "version": "2.0.0",
-    "description": "sdk",
-    "main": "lib/index.js",
-    "scripts": {
-      "compile": "babel -d lib/ src/",
-      "build": "webpack  && node script/download.js",
-      "build-min": "cross-env NODE_ENV=production COMPRESS=1 webpack && node script/download.js production",
-      "build-only": "webpack ",
-      "build-only-min": "cross-env NODE_ENV=production COMPRESS=1 webpack",
-      "stats": "webpack --env production --profile --json > stats.json",
-      "analyzer": "webpack-bundle-analyzer stats.json",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ziaochina/mk-mobile-sdk.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ziaochina/mk-mobile-sdk/issues"
-    },
-    "homepage": "https://github.com/ziaochina/mk-mobile-sdk#readme",
-    "dependencies": {
-      "mk-app-loader": "*",
-      "mk-mobile-component": "*",
-      "mk-meta-engine": "*",
-      "mk-utils": "*",
-      "react": "*",
-      "react-dom": "*"
-    },
-    "devDependencies": {
-      "babel-cli": "*",
-      "babel-core": "*",
-      "babel-loader": "*",
-      "babel-plugin-add-module-exports": "*",
-      "babel-plugin-import": "*",
-      "babel-plugin-transform-runtime": "*",
-      "babel-preset-env": "*",
-      "babel-preset-react": "*",
-      "babel-preset-stage-0": "*",
-      "copy-webpack-plugin": "*",
-      "cross-env": "*",
-      "css-loader": "*",
-      "express": "*",
-      "extract-text-webpack-plugin": "*",
-      "file-loader": "*",
-      "less-loader": "*",
-      "lodash-webpack-plugin": "*",
-      "style-loader": "*",
-      "url-loader": "*",
-      "webpack": "*",
-      "webpack-cli":"*",
-      "mini-css-extract-plugin": "*",
-      "optimize-css-assets-webpack-plugin": "*",
-      "uglifyjs-webpack-plugin": "*"
-    }
+  "name": "mk-mobile-sdk",
+  "version": "2.0.1",
+  "description": "sdk",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel -d lib/ src/",
+    "build": "webpack  && node script/download.js",
+    "build-min": "cross-env NODE_ENV=production COMPRESS=1 webpack && node script/download.js production",
+    "build-only": "webpack ",
+    "build-only-min": "cross-env NODE_ENV=production COMPRESS=1 webpack",
+    "stats": "webpack --env production --profile --json > stats.json",
+    "analyzer": "webpack-bundle-analyzer stats.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziaochina/mk-mobile-sdk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ziaochina/mk-mobile-sdk/issues"
+  },
+  "homepage": "https://github.com/ziaochina/mk-mobile-sdk#readme",
+  "dependencies": {
+    "mk-app-loader": "*",
+    "mk-meta-engine": "*",
+    "mk-mobile-component": "*",
+    "mk-utils": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-plugin-add-module-exports": "*",
+    "babel-plugin-import": "*",
+    "babel-plugin-transform-runtime": "*",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-0": "*",
+    "copy-webpack-plugin": "*",
+    "cross-env": "*",
+    "css-loader": "*",
+    "express": "*",
+    "extract-text-webpack-plugin": "*",
+    "file-loader": "*",
+    "less-loader": "*",
+    "lodash-webpack-plugin": "*",
+    "mini-css-extract-plugin": "*",
+    "optimize-css-assets-webpack-plugin": "*",
+    "style-loader": "*",
+    "uglifyjs-webpack-plugin": "*",
+    "url-loader": "*",
+    "webpack": "*",
+    "webpack-cli": "*"
   }
-  
+}
